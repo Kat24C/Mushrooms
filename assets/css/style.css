@@ -8,7 +8,7 @@ body {
     font-family:'abhaya libre', Courier, sans-serif; 
     color: red;
 }
-
+/* heading */
 h1, h2 {
     font-family: 'Roboto slab', sans-serif, arial;
     text-transform: uppercase;
@@ -46,3 +46,11 @@ h1, h2 {
     border-bottom: 1px solid rgb(126, 38, 38);
 }
 
+/* image of mushrooms */
+
+#mushrooms {
+    height: 500px;
+    width: 100%;
+    background: url(../gallery/mushrooms2.jpg) no-repeat center center;
+    object-fit: contain;
+}
