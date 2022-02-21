@@ -1,22 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto+Slab:wght@500&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: 2px;
+    font-family:'abhaya libre', Courier, sans-serif; 
+    color: red;
+}
 
 h1, h2 {
-    font-family: 'akaya telivigala', sans-serif, arial;
+    font-family: 'Roboto slab', sans-serif, arial;
     text-transform: uppercase;
     color: rgb(126, 38, 38)
 }
 
-h1 {
+#heading {
     text-align: center;
     font-size: 250%;
 }
+/* navigation link */
 
-nav {
-    font-family: 'abhaya libre', Courier, monospace;
-    float: left;
-    color: rgb(126, 38, 38);
+#links ul {
+    font-family: 'abhaya libre', Courier, sans-serif;
+    text-align: center;
     font-size: 150%;
-    padding-top: 30px;
+    padding-top: 5;
     text-transform: uppercase;
+    margin-right: 30px;
 }
+
+#links li {
+    list-style-type: none;
+    display: inline;
+    padding: vertical;
+}
+
+#links a {
+      text-decoration: none;
+      color: rgb(126, 38, 38);
+}
+
+#links a:hover {
+    color: #A84B8C;
+    border-bottom: 1px solid rgb(126, 38, 38);
+}
+
