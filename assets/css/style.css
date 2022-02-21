@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family:'abhaya libre', Courier, sans-serif; 
     color: red;
 }
@@ -31,7 +31,6 @@ h1, h2 {
     font-family: 'abhaya libre', Courier, sans-serif;
     text-align: center;
     font-size: 150%;
-    padding-top: 5;
     text-transform: uppercase;
     margin-right: 30px;
 }
@@ -40,6 +39,7 @@ h1, h2 {
     list-style-type: none;
     display: inline;
     padding: vertical;
+    word-spacing: 8px;
 }
 
 #links a {
@@ -48,8 +48,8 @@ h1, h2 {
 }
 
 #links a:hover {
-    color: #A84B8C;
-    border-bottom: 1px solid rgb(126, 38, 38);
+    color: #D19EA4;
+    border-bottom: 3px solid #D19EA4;
 }
 
 /* image of mushrooms */
@@ -58,4 +58,6 @@ h1, h2 {
     height: 500px;
     width: 100%;
     background: url(../gallery/mushrooms2.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
