@@ -67,11 +67,15 @@ h1, h2 {
     text-size-adjust: 20%;
 }
 
-.button-mushroom {
+#edible h2 {
+    margin-bottom: 10px;
+}
+
+.img-mushroom {
     width: 10%;
     float: left;
     overflow: auto;
-    
+    position: relative;
 }
 
 #edible h3 {
@@ -79,7 +83,10 @@ h1, h2 {
     margin-left: 10%;
     padding-left: 10px;
     text-decoration: 1px underline #9B3255;
+    font-size: larger;
     color: #9B3255;
+    position: relative;
+
 }
 
 #edible p {
