@@ -7,9 +7,6 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
     letter-spacing: 1px;
     font-family:'abhaya libre', Courier, sans-serif; 
     color: rgb(134, 7, 7);
@@ -75,18 +72,15 @@ h1, h2 {
     width: 10%;
     float: left;
     overflow: auto;
-    position: relative;
+    margin-left: 5px;
 }
 
 #edible h3 {
     text-align: left;
-    margin-left: 10%;
-    padding-left: 10px;
+    margin-left: 12%;
     text-decoration: 1px underline #9B3255;
     font-size: larger;
     color: #9B3255;
-    position: relative;
-
 }
 
 #edible p {
@@ -94,6 +88,6 @@ h1, h2 {
     width: 30%;  
     margin-left: 10%;
     padding-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
