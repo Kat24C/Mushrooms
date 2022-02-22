@@ -60,8 +60,8 @@ h1, h2 {
 /* edible mushroom */
 #edible {
     text-size-adjust: 20%;
-    position: absolute;
     display: inline;
+    position: absolute;
 }
 
 #edible h2 {
@@ -70,10 +70,11 @@ h1, h2 {
 }
 
 .img-mushroom {
-    width: 10%;
+    width: 15%;
     float: left;
-    overflow: auto;
     margin-left: 5px;
+    height: 150px;
+    padding-bottom: 10px;
 }
 
 #edible h3 {
@@ -110,29 +111,17 @@ h1, h2 {
 
 .right-img-mushroom {
     width: 15%;
-    display: inline-block;
-    margin-left: 48%;
-    position: relative;
-}
+    margin-left: 55%;
+    }
 
 #poisonous h3 {
-    margin-right: 317px;
     text-align: right;
-    text-decoration: 1px underline #9B3255;
-    font-size: larger;
-    color: #9B3255;
+    margin-right: 400px;
 }
 
 #poisonous p {
     width: 30%;
     margin-bottom: 20px;
-    padding-left: 65%;
-    
-}
-
-/* footer information */
-footer {
-    overflow: auto;
-    height: 100px;
+    margin-left: 60%;
 }
 
