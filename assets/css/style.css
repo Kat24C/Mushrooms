@@ -65,14 +65,13 @@ h1, h2 {
 #edible {
     float: right;
     text-size-adjust: 20%;
-    
 }
 
-#button-mushroom {
-    height: 10%;
+.button-mushroom {
     width: 10%;
     float: left;
     overflow: auto;
+    
 }
 
 #edible h3 {
@@ -88,4 +87,6 @@ h1, h2 {
     width: 30%;  
     margin-left: 10%;
     padding-left: 10px;
+    margin-bottom: 15px;
 }
+
