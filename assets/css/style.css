@@ -18,6 +18,15 @@ h1, h2 {
     color: rgb(126, 38, 38)
 }
 
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 #heading {
     text-align: center;
     font-size: 250%;
@@ -50,25 +59,24 @@ h1, h2 {
 
 /* image of mushrooms */
 
-#mushrooms {
-    height: 500px;
+#mushrooms img {
+    height: auto;
     width: 100%;
-    background: url(../gallery/mushrooms2.jpg) no-repeat center center;
-    background-size: cover;
-    overflow: hidden;
 }
 /* edible mushroom */
+.column1 {
+    display: flex;
+
+}
+
+.column {
+     box-sizing: border-box;
+     max-width: 50%;
+}
+
 #edible {
-    text-size-adjust: 20%;
-    display: inline;
-    position: absolute;
+    float: left;
 }
-
-#edible h2 {
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
 .img-mushroom {
     width: 10%;
     float: left;
@@ -77,56 +85,14 @@ h1, h2 {
     padding-bottom: 10px;
 }
 
-#edible h3 {
-    text-align: left;
-    margin-left: 12%;
-    text-decoration: 1px underline #9B3255;
-    font-size: larger;
-    color: #9B3255;
-}
-
-#edible p {
-    text-align: left;
-    width: 30%;  
-    margin-left: 11%;
-    padding-left: 10px;
-    margin-bottom: 20px;
-}
-
 
 /* poisonous mushroom */
+
 #poisonous {
-    text-size-adjust: 20%;
-    display: inline;
     float: right;
-    position: relative;
- 
 }
 
-#poisonous h2 {
-    padding-bottom: 10px;
-    margin-right: 250px;
-    text-align: right;
-}
 
 .right-img-mushroom {
     width: 12%;
-    margin-left: 52%;
-    position: relative;
-    top: -170px;
 }
-
-#poisonous h3 {
-    text-decoration: 1px underline #9B3255;
-    font-size: larger;
-    color: #9B3255;
-    text-align: right;
-    margin-right: 360px;
-}
-
-#poisonous p {
-    width: 30%;
-    margin-bottom: 20px;
-    margin-left: 65%;
-}
-
