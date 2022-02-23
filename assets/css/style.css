@@ -15,7 +15,9 @@ body {
 h1, h2 {
     font-family: 'Roboto slab', sans-serif, arial;
     text-transform: uppercase;
-    color: rgb(126, 38, 38)
+    color: rgb(126, 38, 38);
+    margin-left: 3rem;
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -63,28 +65,41 @@ h1, h2 {
     height: auto;
     width: 100%;
 }
-/* edible mushroom */
+/* columns */
 .column1 {
     display: flex;
-
 }
 
 .column {
-     box-sizing: border-box;
-     max-width: 50%;
+    box-sizing: border-box;
+    width: 50%;
 }
-
+/* edible mushrooms */
 #edible {
     float: left;
-}
-.img-mushroom {
-    width: 10%;
-    float: left;
-    margin-left: 5px;
-    height: 120px;
-    padding-bottom: 10px;
+    padding-bottom: 0.6rem;
 }
 
+.img-mushroom {
+    width: 20%;
+    float: left;
+    height: 120px;
+    padding-right: 0.6rem;
+}
+
+#edible h3{
+    text-align: left;
+    margin-left: 12%;
+    text-decoration: 1px underline #9B3255;
+    font-size: larger;
+    color: #9B3255;
+}
+
+#edible p {
+    width: 31rem;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
 
 /* poisonous mushroom */
 
