@@ -64,6 +64,7 @@ h1, h2 {
 #mushrooms img {
     height: auto;
     width: 100%;
+    background-color: #FFEBED;
 }
 /* columns */
 .column1 {
@@ -136,6 +137,7 @@ h1, h2 {
 footer {
     height: 80px;
     background-color: #FFEBED; 
+    margin-top: 1rem;
 }
 
 .social {
@@ -149,7 +151,7 @@ footer {
 }
 
 .social a {
-    font-size: 200%;
+    font-size: 150%;
     margin: 3px;
     padding: 5%;
     color: #B5717A;
