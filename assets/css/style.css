@@ -160,8 +160,26 @@ footer {
 /* Media queries, for larger screen 1200 px wide and down*/
 
 @media screen and (max-width: 1200px) {
+   #mushroom-style {
+       overflow: auto;
+       
+   }
+
     .column1 {
         flex-direction: column;
+    }
+
+    #edible p, #poisonous p {
+        text-align: center;
+        text-align: justify;
+        width: 100%;
+    }
+    .img-mushroom, .right-img-mushroom {
+        width: 50%;
+        height: auto;
+        padding: 0 auto; 
+        margin: 0 auto;
+        text-align: justify;
     }
 }
   
@@ -170,14 +188,22 @@ footer {
 
 @media screen and (max-width: 950) {
     #mushroom-style {
-        display: block;
-        width: 65%;
+        width: 100%;
         margin: 0 auto; 
         clear: both; 
     }
    
-    #poisonous {
-        text-align: center;
+    #poisonous, #edible {
+        text-align: justify;
+        width: 100%;
     }
+
+    .img-mushroom, .right-img-mushroom {
+        display: block;
+        margin: 0 auto; 
+        width: 30rem;
+    }
+
+    
  }
 
