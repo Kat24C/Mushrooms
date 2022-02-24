@@ -156,3 +156,34 @@ footer {
     padding: 5%;
     color: #B5717A;
 }
+
+/* Media queries, for larger screen 1200 px wide and down*/
+
+@media screen and (max-width: 1200px) {
+ #mushroom-style {
+     display: block;
+     width: 65%;
+     margin: 0 auto; 
+ }
+
+ #poisonous {
+     float: left; 
+ }
+}
+  
+
+/* media queries for medium screens from 950px wide and down */
+
+@media screen and (max-width: 950) {
+    #mushroom-style {
+        display: block;
+        width: 65%;
+        margin: 0 auto; 
+        clear: both; 
+    }
+   
+    #poisonous {
+        text-align: center;
+    }
+ }
+
