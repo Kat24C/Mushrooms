@@ -156,6 +156,26 @@ footer {
     padding: 5%;
     color: #B5717A;
 }
+/*Form*/
+.info_form {
+    clear: left;
+    background-image: url(../gallery/mushrooms2.png);
+    background-size: cover;
+    height: 35rem;
+}
+
+#form_outline {
+    margin: 10% 2px 0 0;
+    color: #9B3255;
+    background-color: rgba(255, 235, 237, 0.8);
+    max-width: 20rem;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+#form_outline h2
+
 
 /* Media queries, for larger screen 1200 px wide and down*/
 
@@ -215,19 +235,4 @@ footer {
  }
 
  @media screen and (max-width: 300) {
-    #mushroom-style {
-        width: 50%;
-        margin: 0; 
-        clear: both; 
-    }
-    #column {
-        width: 100%;
-    }
-
-    .img-mushroom, .right-img-mushroom {
-        margin: 0 auto; 
-        width: 70%;
-        position: above;
-    }
-
  }
