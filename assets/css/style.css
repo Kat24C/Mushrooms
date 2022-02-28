@@ -168,13 +168,37 @@ footer {
     margin: 10% 2px 0 0;
     color: #9B3255;
     background-color: rgba(255, 235, 237, 0.8);
-    max-width: 20rem;
+    max-width: 22rem;
     position: absolute;
     left: 10%;
     padding: 30px;
+    font-size: large;
 }
 
-#form_outline h2
+#form_outline h2, #form_outline h3 {
+    font-size: medium;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+
+input {
+    border: 1px solid rgb(126, 38, 38);
+}
+
+.more_info {
+    display: block;
+    color: #9B3255;
+    padding: 5px 3px;
+    background-color: #D19EA4;
+    border: 1px solid rgb(126, 38, 38);
+}
+
+.more_info:hover{
+    color: #D19EA4;
+    background-color: #9B3255;
+    border: 1px solid rgb(126, 38, 38);
+}
 
 
 /* Media queries, for larger screen 1200 px wide and down*/

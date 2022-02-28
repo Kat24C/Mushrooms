@@ -27,18 +27,17 @@
     </header>
     <section class="info_form">
         <form action="https://www.codeinstitue.com" method="post" id="form_outline">
-            <h2>For more information and recipes sign up below:</h2>
-            <label for="name">First name</label>
+            <h2>For more information and recipes:</h2>
+            <label for="name">First name: </label>
             <input type="text" name="name">
             <br/>
-            <label for="last_name">Last name</label>
+            <label for="last_name">Last name:  </label>
             <input type="text" name="last_name">
             <br/>
-            <label id="email">E-mail</label>
+            <label id="email">E-mail:  </label>
             <input type="e-mail" name="email" required>
             <br/>
             <label for="mushroom_amount"><h3>How often do you eat mushrooms?</h3></label>
-            <br/>
             <label for="never">Never</label>
             <input type="radio" name="mushroom_amount" value="never" required>
             <br/>
@@ -54,8 +53,7 @@
             <label for="often">More than once a week</label>
             <input type="radio" name="mushroom_amount" value="often" required>
             <br/>
-            <label for="mushroom_choice"><h4>What type of mushrooms do you eat?</h4></label>
-            <br/>
+            <label for="mushroom_choice"><h3>What type of mushrooms do you eat?</h3></label>
             <input type="text" list="mushroom_type" id="mushroom_choice">
                 <datalist id="mushroom_type">
                     <option value="button mushroom"></option>
@@ -66,7 +64,7 @@
                 </datalist>
             <br/>
 
-            <input type="submit">
+            <input type="submit" class="more_info" value="Tell me more">
         </form>
     </section>
 
