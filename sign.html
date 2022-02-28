@@ -25,6 +25,49 @@
                 </ul>
              </nav>
     </header>
+    <div>
+        <form action="https://www.codeinstitue.com" method="post">
+            <label for="name">First name</label>
+            <input type="text" name="name">
+            <br/>
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name">
+            <br/>
+            <label id="email">E-mail</label>
+            <input type="e-mail" name="email" required>
+            <br/>
+            <label for="mushroom_amount"><h3>How often do you eat mushrooms?</h3></label>
+            <br/>
+            <label for="never">Never</label>
+            <input type="radio" name="mushroom_amount" value="never" required>
+            <br/>
+            <label for="monthly">Once a month</label>
+            <input type="radio" name="mushroom_amount" value="monthly" required>
+            <br/>
+            <label for="twice">Twice a month</label>
+            <input type="radio" name="mushroom_amount" value="twice" required>
+            <br/>
+            <label for="weekly">Once a week</label>
+            <input type="radio" name="mushroom_amount" value="weekly" required>
+            <br/>
+            <label for="often">More than once a week</label>
+            <input type="radio" name="mushroom_amount" value="often" required>
+            <br/>
+            <label for="mushroom_choice"><h4>What type of mushrooms do you eat?</h4></label>
+            <br/>
+            <input type="text" list="mushroom_type" id="mushroom_choice">
+                <datalist id="mushroom_type">
+                    <option value="button mushroom"></option>
+                    <option value="portebello mushroom"></option>
+                    <option value="Shiitake mushroom"></option>
+                    <option value="None"></option>
+
+                </datalist>
+            <br/>
+
+            <input type="submit">
+        </form>
+    </div>
 
 <footer>
     <ul class="social">
