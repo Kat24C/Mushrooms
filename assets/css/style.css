@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto+Slab:wght@500&display=swap');
 
 * {
-    margin: 0;
+    margin: unset;
     padding: 0;
     border: none;
 }
@@ -16,7 +16,6 @@ h1, h2 {
     font-family: 'Roboto slab', sans-serif, arial;
     text-transform: uppercase;
     color: rgb(126, 38, 38);
-    margin-left: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -85,21 +84,21 @@ h1, h2 {
 .img-mushroom {
     width: 25%;
     float: left;
-    height: 120px;
+    height: unset;
     padding-right: 0.6rem;
 }
 
 #edible h3{
-    text-align: left;
-    margin-left: 4rem;
+    text-align: unset;
+    margin-left: unset;
     text-decoration: 1px underline #9B3255;
     font-size: x-large;
     color: #9B3255;
 }
 
 #edible p {
-    width: 80%;
-    padding-left: 7rem;
+    width: unset;
+    padding-left: unset;
     margin-bottom: 1.5rem;
 }
 
@@ -206,16 +205,17 @@ input {
 @media screen and (max-width: 1200px) {
    #mushroom-style {
        overflow: auto; 
-       
-   }
+    }
 
    .column, .column1{
        flex-direction: column;
    }
 
+  
+
    #mushrooms img {
     height: auto;
-    width: 83%;
+    width: 95%;
     background-color: #FFEBED;
    }
 
@@ -225,8 +225,8 @@ input {
    }
    
    #edible h3, #poisonous h3 {
-    text-align: justify;
-    width: 120%;
+    text-align: unset;
+    width: unset;
     padding-bottom: 1%;
 }
 
@@ -250,7 +250,7 @@ input {
 
 /* media queries for medium screens from 950px wide and down */
 
-@media screen and (max-width: 950) {
+@media screen and (max-width: 950px) {
     #mushroom-style {
         width: 100%;
         margin: 0 auto; 
@@ -262,31 +262,25 @@ input {
         width: 60%;
     }
 
-    #edible h3, #poisonous h3 {
-        width: 120%; 
-    }
     .img-mushroom, .right-img-mushroom {
         display: block;
         margin: 0 auto; 
         width: 100%;
     }
-  
+    #poisonous p, #poisonous h3 {
+        text-align: left;
+        margin: 0;
+    }
+
+    footer {
+        float: center;
+    }
  }
 
- @media screen and (max-width: 300) {
-    #mushroom-style {
-
-        flex-direction: column;
-        flex-shrink: inherit;
-    }
+ @media screen and (max-width: 300px) {
     
-    #edible h3, #poisonous h3 {
-        width: 120%; 
+    .img-mushroom, .right-img-mushroom {
+        width: auto;
     }
 
-    .img-mushroom, .right-img-mushroom {
-        display: block;
-        margin: 0 auto; 
-        width: 100%;
-    }
- }
+}
