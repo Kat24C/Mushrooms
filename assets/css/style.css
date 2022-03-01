@@ -206,20 +206,34 @@ input {
 @media screen and (max-width: 1200px) {
    #mushroom-style {
        overflow: auto; 
-       float: left;
+       
    }
 
-   .column {
+   .column, .column1{
        flex-direction: column;
    }
 
-    .column1 {
-        flex-direction: column;
-    }
+   #mushrooms img {
+    height: auto;
+    width: 83%;
+    background-color: #FFEBED;
+   }
 
+   #heading {
+       text-align: justify;
+       margin-left: 25%;
+   }
+   
+   #edible h3, #poisonous h3 {
+    text-align: justify;
+    width: 120%;
+    padding-bottom: 1%;
+}
+
+   
     #edible p, #poisonous p {
         text-align: justify;
-        width: 100%;
+        width: 120%;
         padding-bottom: 5%;
     }
 
@@ -260,4 +274,13 @@ input {
  }
 
  @media screen and (max-width: 300) {
+    #edible h3, #poisonous h3 {
+        width: 120%; 
+    }
+
+    .img-mushroom, .right-img-mushroom {
+        display: block;
+        margin: 0 auto; 
+        width: 100%;
+    }
  }
