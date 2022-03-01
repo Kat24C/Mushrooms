@@ -206,6 +206,7 @@ input {
 @media screen and (max-width: 1200px) {
    #mushroom-style {
        overflow: auto; 
+       float: left;
    }
 
    .column {
@@ -218,14 +219,14 @@ input {
 
     #edible p, #poisonous p {
         text-align: justify;
-        width: 150%;
+        width: 100%;
         padding-bottom: 5%;
     }
 
     .img-mushroom, .right-img-mushroom {
         width: 50%;
         height: auto;
-        padding: 0 auto; 
+        padding: auto; 
         margin-right: 12px;
         padding-bottom: 15px;
         text-align: justify;
@@ -243,7 +244,7 @@ input {
     }
    
     #poisonous, #edible {
-        text-align: justify;
+        text-align: left;
         width: 60%;
     }
 
