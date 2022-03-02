@@ -30,16 +30,14 @@ h1, h2 {
 
 #heading {
     text-align: center;
-    font-size: 250%;
+    font-size: 200%;
 }
 /* navigation link */
 
 #links ul {
     font-family: 'abhaya libre', Courier, sans-serif;
-    text-align: center;
-    font-size: 150%;
+    text-align: center;  
     text-transform: uppercase;
-    margin-right: 1.8rem;
 }
 
 #links li {
@@ -84,7 +82,6 @@ h1, h2 {
 .img-mushroom {
     width: 25%;
     float: left;
-    height: unset;
     padding-right: 0.6rem;
 }
 
@@ -134,27 +131,44 @@ h1, h2 {
 /* footer and social network links */
 
 footer {
-    height: 80px;
+    height: 50px;
     background-color: #FFEBED; 
-    margin-top: 1rem;
 }
 
 .social {
-    text-align: center;
+    margin-left: 30%;
+    padding-top: 0.5rem;
+
 }
 
 .social li {
     list-style-type: none;
     display: inline;
-    word-spacing: 0.5rem;
+    word-spacing: 0.2rem;
 }
 
 .social a {
-    font-size: 150%;
+    font-size: 100%;
     margin: 3px;
-    padding: 5%;
     color: #B5717A;
 }
+/* Style for recipes */
+
+#recipes {
+     display: block;
+}
+
+#recipes ul>li {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+#recipes ol>li {
+    list-style-type: lower-roman;
+    margin-left: 1.5rem;
+}
+
+
 /*Form*/
 .info_form {
     clear: left;
@@ -240,23 +254,25 @@ input {
     .img-mushroom, .right-img-mushroom {
         width: 50%;
         height: auto;
-        padding: auto; 
         margin-right: 12px;
         padding-bottom: 15px;
         text-align: justify;
     }
+
+    .social {
+        margin: 0;
+        }
 }
   
 
 /* media queries for medium screens from 950px wide and down */
 
 @media screen and (max-width: 950px) {
+  
     #mushroom-style {
         width: 100%;
-        margin: 0 auto; 
         clear: both; 
     }
-   
     #poisonous, #edible {
         text-align: left;
         width: 60%;
@@ -271,14 +287,10 @@ input {
         text-align: left;
         margin: 0;
     }
-
-    footer {
-        float: center;
-    }
- }
+}
 
  @media screen and (max-width: 300px) {
-    
+   
     .img-mushroom, .right-img-mushroom {
         width: auto;
     }
