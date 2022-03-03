@@ -150,7 +150,7 @@ footer {
 .social a {
     font-size: 100%;
     margin: 3px;
-    color: #B5717A;
+    color: rgb(126, 38, 38);
 }
 /* Style for recipes */
 
@@ -172,7 +172,7 @@ footer {
 /*Form*/
 .info_form {
     clear: left;
-    background-image: url(../gallery/mushrooms2.png);
+    background-image: url(../gallery/mushrooms2.webp);
     background-size: cover;
     height: 35rem;
 }
@@ -203,12 +203,12 @@ input {
     display: block;
     color: #9B3255;
     padding: 5px 3px;
-    background-color: #D19EA4;
+    background-color: #ecc9cd;
     border: 1px solid rgb(126, 38, 38);
 }
 
 .more_info:hover{
-    color: #D19EA4;
+    color: #ecc9cd;
     background-color: #9B3255;
     border: 1px solid rgb(126, 38, 38);
 }
