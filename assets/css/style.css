@@ -290,6 +290,9 @@ input {
 }
 
  @media screen and (max-width: 300px) {
+     #heading {
+         margin-right: 25%;
+     }
    
     .img-mushroom, .right-img-mushroom {
         width: auto;
