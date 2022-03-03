@@ -289,13 +289,9 @@ input {
     }
 }
 
- @media screen and (max-width: 300px) {
+ @media screen and (max-width: 320px) {
      #heading {
-         margin-right: 40%;
+         text-align: center;
+         margin-left: 0;
      }
-   
-    .img-mushroom, .right-img-mushroom {
-        width: auto;
-    }
-
 }
