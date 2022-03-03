@@ -191,9 +191,9 @@ footer {
 #form_outline h2, #form_outline h3 {
     font-size: medium;
     margin: 0;
-    padding-bottom: 15px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
 }
-
 
 input {
     border: 1px solid rgb(126, 38, 38);
