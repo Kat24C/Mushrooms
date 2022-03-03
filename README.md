@@ -3,4 +3,4 @@ The mushroom website show the user different types of mushrooms that are edible 
 
 Users of this website will be able to see what the mushroom looks like and get an idea of tastes and looks. 
 
-![Responsive design]()
+![Responsive design](https://github.com/Kat24C/mushrooms/blob/main/assets/gallery/responsive.jpg)
