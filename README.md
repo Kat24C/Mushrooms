@@ -36,4 +36,11 @@ Users of this website will be able to see what the mushroom looks like and get a
    * It asks for user name, email, mushroom preferences and how often they eat mushrooms. 
 <img src="assets/gallery/join.png" width=50% alt="Screenshot of join section">
 
+## Testing
+  * I tested the pages in different browsers including Edge, Chrome and Brave. 
+  * I used devtools to confirm that this project is responsive, looks good and functions on different screen sizes. 
+  * I confirmed that the form works: it requires entry at every field, the email field will only accept an email, the Tell me more button works. 
+
+### Bugs
+
 
