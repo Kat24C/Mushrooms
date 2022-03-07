@@ -26,3 +26,14 @@ Users of this website will be able to see what the mushroom looks like and get a
    * It tells you what the poisonous mushrooms look like with an image. 
 
 <img src="assets/gallery/poisonous.png" width=50% alt="Screenshot of poisonous section">
+
+### * The recipe section
+  * Gives two recipes that use mushrooms in them. 
+  * The recipes contain button mushrooms and portebello mushrooms. 
+
+### * The join section
+   * Asks the user if they want to join for more information and recipes. 
+   * It asks for user name, email, mushroom preferences and how often they eat mushrooms. 
+<img src="assets/gallery/join.png" width=50% alt="Screenshot of join section">
+
+
