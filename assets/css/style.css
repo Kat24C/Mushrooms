@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto+Slab:wght@500&display=swap');
 
 * {
-    margin: unset;
     padding: 0;
     border: none;
 }
@@ -17,6 +16,10 @@ h1, h2 {
     text-transform: uppercase;
     color: rgb(126, 38, 38);
     margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -86,8 +89,6 @@ h1, h2 {
 }
 
 #edible h3{
-    text-align: unset;
-    margin-left: unset;
     text-decoration: 1px underline #9B3255;
     font-size: x-large;
     color: #9B3255;
