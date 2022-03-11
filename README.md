@@ -39,7 +39,7 @@ Users of this website will be able to see what the mushroom looks like and get a
 ### * The link section
    * Added a link to facebook, instagram and twitter, using awesome font to add an image. 
    * I used a light pink as the footer background and redish brown for the font. 
-<img src="assets/gallery/lists.png" width=50% alt="Screenshot of footer section">
+<img src="assets/gallery/links.png" width=50% alt="Screenshot of footer section">
 
 ## Testing
   * I tested the pages in different browsers including Edge, Chrome and Brave. 
@@ -47,5 +47,11 @@ Users of this website will be able to see what the mushroom looks like and get a
   * I confirmed that the form works: it requires entry at every field, the email field will only accept an email, the Tell me more button works. 
 
 ### Bugs
+  * While testing I noticed the navigation links on the recipe page and join page did not work. 
+  * I fixed this by correcting the code. 
+  * On the joining page I had a hyphen by type="email" which I fixed. 
+  * My link to the formdrop page I had typed .com instead of .net which has been fixed. 
 
-
+### * Validation
+* Accessibility
+  * By running my project through lighthouse in devtool, I confirmed that the colours and fonts are easy to read and accessible. 
