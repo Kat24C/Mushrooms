@@ -83,5 +83,4 @@ Users of this website will be able to see what the mushroom looks like and get a
   * The button mushrooms, Fly agaric and Destroying angel images were taken from Pexels. 
   * Death-cap image, Shiitake and Portobello mushroom image were taken from pixabay. 
 
-  * The information was adapted 
-
+  * The information was adapted https://www.woodlandtrust.org.uk/, https://specialtyproduce.com, https://en.wikipedia.org, https://mdc.mo.gov/discover-nature/field-guide/destroying-angel, https://www.healthline.com/nutrition/shiitake-mushrooms
