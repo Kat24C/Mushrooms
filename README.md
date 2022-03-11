@@ -53,5 +53,15 @@ Users of this website will be able to see what the mushroom looks like and get a
   * My link to the formdrop page I had typed .com instead of .net which has been fixed. 
 
 ### * Validation
+* CSS
+  * No errors were found when running the css code through jigsaw W3C code validator
+* HTML sign up form
+  * No errors were found when running the html code through validator W3
+* HTML recipe section
+  * No errors were found when running the html code through validator W3
+* HTML index section
+  * No errors were found when running the html code through validator W3
 * Accessibility
   * By running my project through lighthouse in devtool, I confirmed that the colours and fonts are easy to read and accessible. 
+<img src="assets/gallery/validation.png" width=50% alt="Screenshot of validation">
+
