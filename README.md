@@ -74,4 +74,14 @@ Users of this website will be able to see what the mushroom looks like and get a
      * From the drop down menu change branch to master. 
      * Once the master branch has been selected, the page will provide a link to the completed website. 
  
+ ## Credits
+  * The code to make the social media links was adapted from the love running project. 
+  * The container code was taken from Spencer Barbell Mentoor. 
+
+## Media
+  * The first image was taken by me. 
+  * The button mushrooms, Fly agaric and Destroying angel images were taken from Pexels. 
+  * Death-cap image, Shiitake and Portobello mushroom image were taken from pixabay. 
+
+  * The information was adapted 
 
