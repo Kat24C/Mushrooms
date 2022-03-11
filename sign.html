@@ -37,7 +37,8 @@
             <label for="email">E-mail:  </label>
             <input type="email" name="email" id="email" required>
             <br/>
-            <label for="mushroom_amount"><h3>How often do you eat mushrooms?</h3></label>
+            <label id="mushroom_amount">How often do you eat mushrooms?</label>
+            <br/>
             <label for="never">Never</label>
             <input type="radio" name="mushroom_amount" value="never" id="never" required>
             <br/>
@@ -53,8 +54,8 @@
             <label for="often">More than once a week</label>
             <input type="radio" name="mushroom_amount" value="often" id="often">
             <br/>
-            <label for="mushroom_choice"><h3>Which mushroom is your favourite?</h3></label>
-            <input type="text" list="mushroom_type" id="mushroom_choice" required>
+            <label id="mushroom_choice">Which mushroom is your favourite?</label>
+            <input type="text" list="mushroom_type" name="mushroom_choice" required>
                 <datalist id="mushroom_type">
                     <option value="button mushroom"></option>
                     <option value="portobello mushroom"></option>

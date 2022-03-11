@@ -92,6 +92,7 @@ a {
     text-decoration: 1px underline #9B3255;
     font-size: x-large;
     color: #9B3255;
+    margin-bottom: -0.8rem;
 }
 
 #edible p {
@@ -121,6 +122,7 @@ a {
     text-decoration: 1px underline #9B3255;
     font-size: x-large;
     color: #9B3255;
+    margin-bottom: -0.8rem;
 }
 
 #poisonous p {
@@ -169,6 +171,9 @@ footer {
     margin-left: 1.5rem;
 }
 
+h3, h4 {
+    margin-bottom: -0.5rem;
+}
 
 /*Form*/
 .info_form {
@@ -214,6 +219,9 @@ input {
     border: 1px solid rgb(126, 38, 38);
 }
 
+#mushroom_amount, #mushroom_choice {
+    font-weight: 700;
+}
 
 /* Media queries, for larger screen 1200 px wide and down*/
 
