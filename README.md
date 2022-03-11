@@ -36,6 +36,11 @@ Users of this website will be able to see what the mushroom looks like and get a
    * It asks for user name, email, mushroom preferences and how often they eat mushrooms. 
 <img src="assets/gallery/join.png" width=50% alt="Screenshot of join section">
 
+### * The link section
+   * Added a link to facebook, instagram and twitter, using awesome font to add an image. 
+   * I used a light pink as the footer background and redish brown for the font. 
+<img src="assets/gallery/lists.png" width=50% alt="Screenshot of footer section">
+
 ## Testing
   * I tested the pages in different browsers including Edge, Chrome and Brave. 
   * I used devtools to confirm that this project is responsive, looks good and functions on different screen sizes. 
