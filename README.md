@@ -46,7 +46,7 @@ Users of this website will be able to see what the mushroom looks like and get a
   * I used devtools to confirm that this project is responsive, looks good and functions on different screen sizes. 
   * I confirmed that the form works: it requires entry at every field, the email field will only accept an email, the Tell me more button works. 
 
-### Bugs
+### * Bugs
   * While testing I noticed the navigation links on the recipe page and join page did not work. 
   * I fixed this by correcting the code. 
   * On the joining page I had a hyphen by type="email" which I fixed. 
@@ -64,4 +64,14 @@ Users of this website will be able to see what the mushroom looks like and get a
 * Accessibility
   * By running my project through lighthouse in devtool, I confirmed that the colours and fonts are easy to read and accessible. 
 <img src="assets/gallery/validation.png" width=50% alt="Screenshot of validation">
+
+### * Unfixed bugs
+  * There were no unfixed bugs. 
+
+## Deployment
+  * The site was deployed through Github pages: 
+     * In the github pages navigate to settings. 
+     * From the drop down menu change branch to master. 
+     * Once the master branch has been selected, the page will provide a link to the completed website. 
+ 
 
