@@ -10,6 +10,7 @@ body {
     font-family:'abhaya libre', Courier, sans-serif; 
     color: rgb(134, 7, 7);
 }
+
 /* heading */
 h1, h2 {
     font-family: 'Roboto slab', sans-serif, arial;
@@ -35,8 +36,8 @@ a {
     text-align: center;
     font-size: 200%;
 }
-/* navigation link */
 
+/* navigation link */
 #links ul {
     font-family: 'abhaya libre', Courier, sans-serif;
     text-align: center;  
@@ -60,12 +61,12 @@ a {
 }
 
 /* image of mushrooms */
-
 #mushrooms img {
     height: 25rem;
     width: 100%;
     background-color: #FFEBED;
 }
+
 /* columns */
 .column1 {
     display: flex;
@@ -75,6 +76,7 @@ a {
     box-sizing: border-box;
     width: 50%;
 }
+
 /* edible mushrooms */
 #edible {
     float: left;
@@ -102,13 +104,11 @@ a {
 }
 
 /* poisonous mushroom */
-
 #poisonous {
     float: right;
     padding-bottom: 0.5rem;
     position: relative;
 }
-
 
 .right-img-mushroom {
     width: 25%;
@@ -132,7 +132,6 @@ a {
 }
 
 /* footer and social network links */
-
 footer {
     height: 50px;
     background-color: #FFEBED; 
@@ -141,7 +140,6 @@ footer {
 .social {
     margin-left: 30%;
     padding-top: 0.5rem;
-
 }
 
 .social li {
@@ -155,8 +153,8 @@ footer {
     margin: 3px;
     color: rgb(126, 38, 38);
 }
-/* Style for recipes */
 
+/* Style for recipes */
 #recipes {
      display: block;
 }
@@ -224,7 +222,6 @@ input {
 }
 
 /* Media queries, for larger screen 1200 px wide and down*/
-
 @media screen and (max-width: 1200px) {
    #mushroom-style {
        overflow: auto; 
@@ -233,8 +230,6 @@ input {
    .column, .column1{
        flex-direction: column;
    }
-
-  
 
    #mushrooms img {
     height: auto;
@@ -248,10 +243,10 @@ input {
    }
    
    #edible h3, #poisonous h3 {
-    text-align: unset;
-    width: unset;
-    padding-bottom: 1%;
-}
+        text-align: unset;
+        width: unset;
+        padding-bottom: 1%;
+    }
 
    
     #edible p, #poisonous p {
@@ -274,9 +269,7 @@ input {
         }
 }
   
-
 /* media queries for medium screens from 950px wide and down */
-
 @media screen and (max-width: 950px) {
     #heading {
         text-align: center;
@@ -287,6 +280,7 @@ input {
         width: 100%;
         clear: both; 
     }
+
     #poisonous, #edible {
         text-align: left;
         width: 60%;
@@ -297,12 +291,14 @@ input {
         margin: 0 auto; 
         width: 100%;
     }
+
     #poisonous p, #poisonous h3 {
         text-align: left;
         margin: 0;
     }
 }
 
+/* media queries for medium screens from 320px wide */
  @media screen and (max-width: 320px) {
      #heading {
          text-align: center;
