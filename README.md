@@ -70,13 +70,15 @@ Users of this website will be able to see what the mushroom looks like and get a
 
 ## Deployment
   * The site was deployed through Github pages: 
+     * Using git add . , git commit -m and git push to upload the content to the github repository. 
      * In the github pages navigate to settings. 
      * From the drop down menu change branch to master. 
      * Once the master branch has been selected, the page will provide a link to the completed website. 
  
  ## Credits
   * The code to make the social media links was adapted from the love running project. 
-  * The container code was taken from Spencer Barbell Mentoor. 
+  * The container code was taken from Spencer Barriball, Mentoor. 
+  * Used pictures from font awesome
 
 ## Media
   * The first image was taken by me. 
