@@ -77,8 +77,10 @@ Users of this website will be able to see what the mushroom looks like and get a
  
  ## Credits
   * The code to make the social media links was adapted from the love running project. 
+  * The * in css was adapted from the love running project.
   * The container code was taken from Spencer Barriball, Mentoor. 
-  * Used pictures from font awesome
+  * Used images from font awesome.
+  
 
 ## Media
   * The first image was taken by me. 
